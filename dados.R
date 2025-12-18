@@ -3,7 +3,7 @@ library(basedosdados)
 library(dplyr)
 
 # Defina o seu projeto no Google Cloud
-set_billing_id("crucial-pagoda-476121-p4")
+set_billing_id("xxxx")
 
 # Para carregar o dado direto no R
 query <- "
@@ -160,3 +160,4 @@ df_def_es <- data.frame(
 )
 
 write.csv(df_def_es, file = "app/df_def_es.csv", row.names = FALSE)
+
